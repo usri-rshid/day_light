@@ -172,4 +172,18 @@ header .btns.active ion-icon:nth-child(2) {
 
 .social li a {
     text-decoration: none;
+    color: var(--black);
+    font-size: 1.75em;
+    transition: 0.5s;
+}
+
+.text {
+    position: absolute;
+    bottom: 40px;
+    left: 100px;
+    z-index: 2;
+    font-weight: 500;
+    font-size: 1.2em;
+    color: var(--black);
+
 }
