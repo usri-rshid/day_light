@@ -1,3 +1,81 @@
-#test {
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --black: #2e2e2e;
+    --white: #fff;
+}
+
+.dark {
+    --black: #fff;
+    --white: #2f2f2f
+}
+
+header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.right {
+    display: flex;
+}
+
+header .btns {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+header .btns ion-icon {
+    font-size: 2rem;
+    color: var(--black);
+
+}
+
+header .btns.menuToggle ion-icon {
+    font-size: 3rem;
+}
+
+header .btns ion-icon:nth-child(2) {
+    display: none;
+}
+
+header .btns.active ion-icon:nth-child(1) {
+    display: none;
+}
+
+header .btns.active ion-icon:nth-child(2) {
+    display: block;
+}
+
+.logo {
+    position: relative;
+    display: inline-block;
+    color: var(--black);
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.home {
+    position: relative;
 }
