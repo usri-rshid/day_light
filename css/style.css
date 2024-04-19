@@ -144,6 +144,11 @@ header .btns.active ion-icon:nth-child(2) {
     left: 0;
 }
 
+.navigation.active li a ion-icon {
+    font-size: 2rem;
+    display: inline-flex;
+}
+
 .navigation li a {
     display: inline-flex;
     margin: 5px 0;
@@ -189,6 +194,8 @@ header .btns.active ion-icon:nth-child(2) {
     font-weight: 500;
     font-size: 1.2em;
     color: var(--black);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--black);
 
 }
 
