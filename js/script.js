@@ -16,8 +16,8 @@ lightDark.onclick = function () {
   body.classList.toggle("dark");
 
   if (dark) {
-    video.setAttribute("src", "../night.mp4");
+    video.setAttribute("src", "day.mp4");
   } else {
-    video.setAttribute("src", "../day.mp4");
+    video.setAttribute("src", "night.mp4");
   }
 };
