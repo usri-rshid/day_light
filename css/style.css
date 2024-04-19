@@ -149,6 +149,11 @@ header .btns.active ion-icon:nth-child(2) {
     display: inline-flex;
 }
 
+.navigation li {
+    list-style: none;
+
+}
+
 .navigation li a {
     display: inline-flex;
     margin: 5px 0;
